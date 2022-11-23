@@ -1,3 +1,4 @@
+import fastai
 from fastai.vision.all import *
 import gradio as gr
 learner = load_learner("./model.pkl")

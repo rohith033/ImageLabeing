@@ -10,6 +10,6 @@ def classify(img):
   return dict(zip(cat,map(float,probs)))
 img = gr.inputs.Image(shape=(192,192))
 label = gr.outputs.Label()
-exp = ["./black.jpeg","./brown.jpeg","/panda.jpeg"]
+exp = ["./black.jpeg","./brown.jpeg","./panda.jpeg"]
 interface = gr.Interface(fn=classify,inputs=img,outputs=label,examples=exp)
 interface.launch(inline=False,debug=True,share=True)

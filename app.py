@@ -1,3 +1,5 @@
+import pip
+failed = pip.main(["install", fastai])
 import fastai
 from fastai.vision.all import *
 import gradio as gr

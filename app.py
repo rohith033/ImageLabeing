@@ -25,7 +25,7 @@ def classify(img):
 #/export
 img = gr.inputs.Image(shape=(192,192))
 label = gr.outputs.Label()
-exp = ["/content/panda.jpeg","./black.jpeg","/content/brown.jpeg"]
+exp = ["./panda.jpeg","./black.jpeg","./brown.jpeg"]
 interface = gr.Interface(fn=classify,inputs=img,outputs=label,examples=exp)
 interface.launch(inline=False,debug=True)
 

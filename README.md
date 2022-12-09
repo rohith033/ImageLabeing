@@ -10,4 +10,5 @@ pinned: false
 license: apache-2.0
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+Currently in training .
+<link href="https://huggingface.co/spaces/Rohith33/BearClassifiyer"> link to current state of the app <link>

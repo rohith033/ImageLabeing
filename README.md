@@ -11,4 +11,4 @@ license: apache-2.0
 ---
 
 Currently in training .
-<link href="https://huggingface.co/spaces/Rohith33/BearClassifiyer"> link to current state of the app <link>
+<a href="https://huggingface.co/spaces/Rohith33/BearClassifiyer"> link to the current state of app </a>
